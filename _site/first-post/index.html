@@ -5,30 +5,30 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Post with a Background Image &#8211; Afif Hendrawan</title>
-<meta name="description" content="Sample post with a background image CSS override.">
-<meta name="keywords" content="sample post">
+<title>First Post using Jekyll &#8211; Afif Hendrawan</title>
+<meta name="description" content="Kesan pertama blogging menggunakan Jekyll">
+<meta name="keywords" content="uncategorized">
 
 <!-- Twitter Cards -->
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="/images/">
-<meta name="twitter:title" content="Post with a Background Image">
-<meta name="twitter:description" content="Sample post with a background image CSS override.">
+<meta name="twitter:title" content="First Post using Jekyll">
+<meta name="twitter:description" content="Kesan pertama blogging menggunakan Jekyll">
 <meta name="twitter:creator" content="@affhendrawan">
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Post with a Background Image">
-<meta property="og:description" content="Sample post with a background image CSS override.">
-<meta property="og:url" content="/background-image/">
+<meta property="og:title" content="First Post using Jekyll">
+<meta property="og:description" content="Kesan pertama blogging menggunakan Jekyll">
+<meta property="og:url" content="/first-post/">
 <meta property="og:site_name" content="Afif Hendrawan">
 
 
 
 
 
-<link rel="canonical" href="/background-image/">
+<link rel="canonical" href="/first-post/">
 <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Afif Hendrawan Feed">
 
 <!-- http://t.co/dKP3o1e -->
@@ -62,10 +62,6 @@
 
 
 
-
-<style type="text/css">body {background-image:url(/images/triangular.png);}</style>
-
-
 </head>
 
 <body id="post" >
@@ -79,9 +75,9 @@
 			<a href="#">About</a>
 			<ul class="dl-submenu">
 				<li>
-					<img src="/images/avatar.jpg" alt="Afif Hendrawan photo" class="author-photo">
+					<img src="/images/picture.png" alt="Afif Hendrawan photo" class="author-photo">
 					<h4>Afif Hendrawan</h4>
-					<p>Mobile and NUI technology enthusias | about.me/afifhendrawan</p>
+					<p>about.me/afifhendrawan</p>
 				</li>
 				<li><a href="/about/"><span class="btn btn-inverse">Learn More</span></a></li>
 				<li>
@@ -137,67 +133,52 @@
     <header class="header-title">
       <div class="header-title-wrap">
         
-          <h1 class="entry-title"><a href="/background-image/" rel="bookmark" title="Post with a Background Image">Post with a Background Image</a></h1>
+          <h1 class="entry-title"><a href="/first-post/" rel="bookmark" title="First Post using Jekyll">First Post using Jekyll</a></h1>
         
-        <h2><span class="entry-date date published"><time datetime="2013-10-26T00:00:00-04:00">October 26, 2013</time></span></h2>
+        <h2><span class="entry-date date published"><time datetime="2015-08-09T00:00:00-04:00">August 09, 2015</time></span></h2>
         
         <p class="entry-reading-time">
           <i class="fa fa-clock-o"></i>
           
-          Reading time ~1 minute
+          Reading time ~2 minutes
         </p><!-- /.entry-reading-time -->
         
       </div><!-- /.header-title-wrap -->
     </header>
     <div class="entry-content">
-      <p>Here be a sample post with a custom background image. To utilize this “feature” just add the following YAML to a post’s front matter.</p>
+      <p>Ini adalah post pertama Saya menggunakan Jekyll. Dimulai dari rasa penasaran Saya mengenai web statis akhirnya Saya mencoba Jekyll. Sebelumnya Saya melakukan blogging menggunakan CMS Wordpress yang teman-teman ketahui pasti membutuhkan sistem database. Alasan saya menggunakan CMS Wordpress adalah Saya memegang kendali penuh terhadap blog Saya baik dari <em>front-end</em> maupun <em>back-end</em>-nya. Namun, terkadang untuk membuka blog, memakan waktu cukup lama. Mungkin tidak akan menjadi masalah jika koneksi yang digunakan lancar dan panjang artikel yang ditulis tidak terlalu panjang. Seperti yang kita tau, blog yang menggunakan CMS memunculkan <em>post</em> dan <em>pages</em> dengan cara melakukan query ke database dengan fungsi PHP kemudian di rendering ke format HTML. Alur inilah yang membuat waktu untuk membuka blog mnejadi relatif lebih lama. Berbeda dengan jika kita membuat web atau blog secara statis alias hanya menggunakan tag HTML tentunya akan dibuka dengan lebih cepat.</p>
 
-<div class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="l-Scalar-Plain">image</span><span class="p-Indicator">:</span>
-  <span class="l-Scalar-Plain">background</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">filename.png</span></code></pre></div>
+<p>Hal inilah yang membuat Saya tertarik untuk belajar membuat blog menggunakan Jekyll. Awalnya memang tidak berjalan mulus, karena kesalahan yang Saya lakukan. Namun pada saat menulis <em>post</em> ini rasanya tidak terlalu rumit. Memang, tidak ada <em>text editor</em> seperti yang ada pada Wordpress yang dengan mudahnya kita bisa menyunting sebuah post. Jekyll mengaharuskan kita untuk memformat <em>post</em> kita secara manual dengan menuliskan <em>post</em> atau <em>pages</em> pada sebuah file. Teman-teman tidak perlu risau ^^, untuk memformat <em>post</em> atau <em>pages</em> kita tidak perlu repot-repot menggunakan tag HTML yang mungkin membuat kita malas untuk melulis artikel. Jekyll menggunakan <em>markdown</em> untuk mengkonversikan simbol-simbol tertuntu untuk menjadi tag HTML. Misalahkan Saya membutuhkan kata atau kalimat bercetak miring, Saya cukup meletakkan kata atau kalimat tersebut dalam apitan simbol bintang. Akan tetapi markdown tetap memiliki keterbatasan. Dari apa yang Saya baca markdown tidak mendukung tag HTML yang berkaitan dengan <em>alignment</em> seperti <em>center, left, right</em> dan <em>justify</em>.</p>
 
-<p>This little bit of YAML makes the assumption that your background image asset is in the <code>/images</code> folder. If you place it somewhere else or are hotlinking from the web, just include the full http(s):// URL. Either way you should have a background image that is tiled.</p>
+<p>Secara keseluruhan Saya cukup puas dengan Jekyll, apalagi bisa di host secara gratis melalui <a href="https://pages.github.com">Github Pages</a>. Jekyll juga dapat menggunakan custom domain sesuai dengan kebutuhan kita. Selain itu tidak ada yang bisa dicuri dari web statis kecuali artikelnya.</p>
 
-<p>If you want to set a background image for the entire site just add <code>background: filename.png</code> to your <code>_config.yml</code> and BOOM — background images on every page!</p>
+<p>Mungkin banyak teman-teman diluar sana yang sudah mencoba Jekyll. Untuk teman-teman yang belum pernah mencoba seperti Saya, berikut yang perlu disiapkan.</p>
 
-<div xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/" about="http://subtlepatterns.com" class="notice">Background images from <span property="dct:title">Subtle Patterns</span> (<a rel="cc:attributionURL" property="cc:attributionName" href="http://subtlepatterns.com">Subtle Patterns</a>) / <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a></div>
+<ol>
+  <li>Walapun Jekyll mendungkung penggunaan dalam OS Windows, Jekyll mengutamakan pengembangan di OS berbarsis GNU/Linux, mulailah pelajari GNU/Linux terutama perintah terminal.</li>
+  <li>Install Ruby, karena Jekyll berbasiskan bahasa Ruby</li>
+  <li>Sebaiknya pelajari Git walau blog Jekyll teman-teman tidak di host di GitHub Pages</li>
+  <li>Sabar dan niat :D</li>
+</ol>
+
+<p>Sekian pengalaman Saya menggunakan Jekyll sebagai alternatif berbain blog. Semoga bermanfaat ^^
+CMIIW</p>
 
       <footer class="entry-meta">
-        <span class="entry-tags"><a href="/tags/#sample post" title="Pages tagged sample post" class="tag"><span class="term">sample post</span></a></span>
-        
+        <span class="entry-tags"><a href="/tags/#uncategorized" title="Pages tagged uncategorized" class="tag"><span class="term">uncategorized</span></a></span>
+        <span>Updated on <span class="entry-date date updated"><time datetime="2015-08-09">August 09, 2015</time></span></span>
+        <span class="author vcard"><span class="fn">Afif Hendrawan</span></span>
         <div class="social-share">
   <ul class="socialcount socialcount-small inline-list">
-    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=/background-image/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
-    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=/background-image/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
-    <li class="googleplus"><a href="https://plus.google.com/share?url=/background-image/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=/first-post/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=/first-post/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+    <li class="googleplus"><a href="https://plus.google.com/share?url=/first-post/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
   </ul>
 </div><!-- /.social-share -->
       </footer>
     </div><!-- /.entry-content -->
     <section id="disqus_thread"></section><!-- /#disqus_thread -->
-    <div class="read-more">
-  
-    <div class="read-more-header">
-      <a href="/code-highlighting-post/" class="read-more-btn">Read More</a>
-    </div><!-- /.read-more-header -->
-    <div class="read-more-content">
-      <h3><a href="/code-highlighting-post/" title="Syntax Highlighting Post">Syntax Highlighting Post</a></h3>
-      <p>Demo post displaying the various ways of highlighting code in Markdown. <a href="/code-highlighting-post/">Continue reading</a></p>
-    </div><!-- /.read-more-content -->
-  
-  <div class="read-more-list">
     
-      <div class="list-item">
-        <h4><a href="/sample-link-post/" title="Sample Link Post">Sample Link Post</a></h4>
-        <span>Published on August 12, 2013</span>
-      </div><!-- /.list-item -->
-    
-      <div class="list-item">
-        <h4><a href="/video-post/" title="A Post with a Video">A Post with a Video</a></h4>
-        <span>Published on June 25, 2013</span>
-      </div><!-- /.list-item -->
-    
-  </div><!-- /.read-more-list -->
-</div><!-- /.read-more -->
   </article>
 </div><!-- /#main -->
 
