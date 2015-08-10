@@ -1,6 +1,6 @@
 title:            Afif Hendrawan
 description:      Personal Blog
-disqus_shortname: hpstrtheme
+disqus_shortname: affhendrawan
 reading_time:     true
 words_per_minute: 200
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
@@ -35,7 +35,7 @@ google_verify:
 bing_verify:
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    Asia/Jakarta
 future:      true
 highlighter: pygments
 markdown:    kramdown
